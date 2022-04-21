@@ -1,0 +1,226 @@
+2022-04-14 11:53:22,059 [INFO ] main com.example.demo.ECommerceApplication [StartupInfoLogger.java : 50] Starting ECommerceApplication on s-MacBook-Air-2.local with PID 13064 (/Users/aaron/Documents/GitHub/eCom/starter_code/target/classes started by aaron in /Users/aaron/Documents/GitHub/eCom)
+2022-04-14 11:53:22,061 [INFO ] main com.example.demo.ECommerceApplication [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2022-04-14 11:53:22,303 [INFO ] main o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-04-14 11:53:22,332 [INFO ] main o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 26ms. Found 4 repository interfaces.
+2022-04-14 11:53:22,531 [INFO ] main o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$722b557] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-14 11:53:22,612 [INFO ] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8080 (http)
+2022-04-14 11:53:22,617 [INFO ] main org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-14 11:53:22,621 [INFO ] main org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2022-04-14 11:53:22,622 [INFO ] main org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-04-14 11:53:22,655 [INFO ] main o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2022-04-14 11:53:22,656 [INFO ] main org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 578 ms
+2022-04-14 11:53:22,715 [INFO ] main com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+2022-04-14 11:53:22,753 [INFO ] main com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.
+2022-04-14 11:53:22,815 [INFO ] main org.hibernate.jpa.internal.util.LogHelper [LogHelper.java : 31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-04-14 11:53:22,838 [INFO ] main org.hibernate.Version [Version.java : 46] HHH000412: Hibernate Core {5.3.10.Final}
+2022-04-14 11:53:22,839 [INFO ] main org.hibernate.cfg.Environment [Environment.java : 213] HHH000206: hibernate.properties not found
+2022-04-14 11:53:22,878 [INFO ] main org.hibernate.annotations.common.Version [JavaReflectionManager.java : 49] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-04-14 11:53:22,920 [INFO ] main org.hibernate.dialect.Dialect [Dialect.java : 157] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-14 11:53:23,169 [INFO ] main o.s.orm.jpa.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java : 415] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-14 11:53:23,453 [INFO ] main org.springframework.security.web.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java : 43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3070f3e6, org.springframework.security.web.context.SecurityContextPersistenceFilter@6b25ef1c, org.springframework.security.web.header.HeaderWriterFilter@41f785e3, org.springframework.web.filter.CorsFilter@3271ec2a, org.springframework.security.web.authentication.logout.LogoutFilter@5618fc1f, com.example.demo.security.JWTAuthenticationFilter@52bba91a, com.example.demo.security.JWTAuthenticationVerificationFilter@1689527c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68c34db2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@350ff014, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21516c88, org.springframework.security.web.session.SessionManagementFilter@727986ad, org.springframework.security.web.access.ExceptionTranslationFilter@57b9389f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e0a9b1d]
+2022-04-14 11:53:23,504 [INFO ] main o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-14 11:53:23,569 [INFO ] main org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-14 11:53:23,580 [INFO ] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-14 11:53:23,582 [INFO ] main com.example.demo.ECommerceApplication [StartupInfoLogger.java : 59] Started ECommerceApplication in 1.719 seconds (JVM running for 1.977)
+2022-04-14 11:55:00,365 [INFO ] http-nio-8080-exec-1 o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-14 11:55:00,376 [INFO ] http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2022-04-14 11:55:00,380 [INFO ] http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 4 ms
+2022-04-14 11:55:00,461 [INFO ] http-nio-8080-exec-1 org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [QueryTranslatorFactoryInitiator.java : 47] HHH000397: Using ASTQueryTranslatorFactory
+2022-04-14 11:55:00,655 [INFO ] http-nio-8080-exec-1 com.example.demo.controllers.UserController [UserController.java : 71] create user: test successfully!
+2022-04-14 11:56:04,854 [INFO ] http-nio-8080-exec-4 com.example.demo.controllers.CartController [CartController.java : 54] add to cart successfully
+2022-04-14 11:56:48,778 [INFO ] Thread-6 o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-14 11:56:48,780 [INFO ] Thread-6 o.s.orm.jpa.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java : 597] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-14 11:56:48,781 [INFO ] Thread-6 com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 350] HikariPool-1 - Shutdown initiated...
+2022-04-14 11:56:48,782 [INFO ] Thread-6 com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 352] HikariPool-1 - Shutdown completed.
+2022-04-14 11:56:50,419 [INFO ] main com.example.demo.ECommerceApplication [StartupInfoLogger.java : 50] Starting ECommerceApplication on s-MacBook-Air-2 with PID 13209 (/Users/aaron/Documents/GitHub/eCom/starter_code/target/classes started by aaron in /Users/aaron/Documents/GitHub/eCom)
+2022-04-14 11:56:50,421 [INFO ] main com.example.demo.ECommerceApplication [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2022-04-14 11:56:50,694 [INFO ] main o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-04-14 11:56:50,732 [INFO ] main o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 34ms. Found 4 repository interfaces.
+2022-04-14 11:56:50,951 [INFO ] main o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$462c812a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-14 11:56:51,041 [INFO ] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8080 (http)
+2022-04-14 11:56:51,046 [INFO ] main org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-14 11:56:51,050 [INFO ] main org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2022-04-14 11:56:51,050 [INFO ] main org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-04-14 11:56:51,086 [INFO ] main o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2022-04-14 11:56:51,086 [INFO ] main org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 641 ms
+2022-04-14 11:56:51,144 [INFO ] main com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+2022-04-14 11:56:51,185 [INFO ] main com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.
+2022-04-14 11:56:51,236 [INFO ] main org.hibernate.jpa.internal.util.LogHelper [LogHelper.java : 31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-04-14 11:56:51,256 [INFO ] main org.hibernate.Version [Version.java : 46] HHH000412: Hibernate Core {5.3.10.Final}
+2022-04-14 11:56:51,257 [INFO ] main org.hibernate.cfg.Environment [Environment.java : 213] HHH000206: hibernate.properties not found
+2022-04-14 11:56:51,293 [INFO ] main org.hibernate.annotations.common.Version [JavaReflectionManager.java : 49] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-04-14 11:56:51,332 [INFO ] main org.hibernate.dialect.Dialect [Dialect.java : 157] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-14 11:56:51,577 [INFO ] main o.s.orm.jpa.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java : 415] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-14 11:56:51,867 [INFO ] main org.springframework.security.web.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java : 43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c212536, org.springframework.security.web.context.SecurityContextPersistenceFilter@71bb8b34, org.springframework.security.web.header.HeaderWriterFilter@4b4a2fa8, org.springframework.web.filter.CorsFilter@7b377a53, org.springframework.security.web.authentication.logout.LogoutFilter@6826b70f, com.example.demo.security.JWTAuthenticationFilter@1b0e031b, com.example.demo.security.JWTAuthenticationVerificationFilter@6009cd34, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@383cdd4d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@100bba26, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65844c96, org.springframework.security.web.session.SessionManagementFilter@3dc39459, org.springframework.security.web.access.ExceptionTranslationFilter@179ee36b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ef3f661]
+2022-04-14 11:56:51,918 [INFO ] main o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-14 11:56:51,975 [INFO ] main org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-14 11:56:52,001 [INFO ] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-14 11:56:52,002 [INFO ] main com.example.demo.ECommerceApplication [StartupInfoLogger.java : 59] Started ECommerceApplication in 1.784 seconds (JVM running for 2.054)
+2022-04-14 11:58:56,272 [INFO ] http-nio-8080-exec-2 o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-14 11:58:56,273 [INFO ] http-nio-8080-exec-2 org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2022-04-14 11:58:56,284 [INFO ] http-nio-8080-exec-2 org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 11 ms
+2022-04-14 11:58:56,410 [INFO ] http-nio-8080-exec-2 org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [QueryTranslatorFactoryInitiator.java : 47] HHH000397: Using ASTQueryTranslatorFactory
+2022-04-14 11:59:15,578 [INFO ] Thread-6 o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-14 11:59:15,579 [INFO ] Thread-6 o.s.orm.jpa.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java : 597] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-14 11:59:15,580 [INFO ] Thread-6 com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 350] HikariPool-1 - Shutdown initiated...
+2022-04-14 11:59:15,581 [INFO ] Thread-6 com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 352] HikariPool-1 - Shutdown completed.
+2022-04-14 11:59:15,651 [INFO ] http-nio-8080-exec-2 com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-2 - Starting...
+2022-04-14 11:59:15,653 [INFO ] http-nio-8080-exec-2 com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-2 - Start completed.
+2022-04-14 11:59:15,658 [INFO ] http-nio-8080-exec-2 org.hibernate.jpa.internal.util.LogHelper [LogHelper.java : 31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-04-14 11:59:15,664 [INFO ] http-nio-8080-exec-2 org.hibernate.dialect.Dialect [Dialect.java : 157] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-14 11:59:15,727 [INFO ] http-nio-8080-exec-2 o.s.orm.jpa.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java : 415] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-14 12:00:10,059 [INFO ] main com.example.demo.ECommerceApplication [StartupInfoLogger.java : 50] Starting ECommerceApplication on s-MacBook-Air-2 with PID 13388 (/Users/aaron/Documents/GitHub/eCom/starter_code/target/classes started by aaron in /Users/aaron/Documents/GitHub/eCom)
+2022-04-14 12:00:10,062 [INFO ] main com.example.demo.ECommerceApplication [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2022-04-14 12:00:10,341 [INFO ] main o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-04-14 12:00:10,368 [INFO ] main o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 24ms. Found 4 repository interfaces.
+2022-04-14 12:00:10,565 [INFO ] main o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a343b362] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-14 12:00:10,664 [INFO ] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8080 (http)
+2022-04-14 12:00:10,669 [INFO ] main org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-14 12:00:10,673 [INFO ] main org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2022-04-14 12:00:10,673 [INFO ] main org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-04-14 12:00:10,710 [INFO ] main o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2022-04-14 12:00:10,711 [INFO ] main org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 624 ms
+2022-04-14 12:00:10,778 [INFO ] main com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+2022-04-14 12:00:10,823 [INFO ] main com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.
+2022-04-14 12:00:10,872 [INFO ] main org.hibernate.jpa.internal.util.LogHelper [LogHelper.java : 31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-04-14 12:00:10,896 [INFO ] main org.hibernate.Version [Version.java : 46] HHH000412: Hibernate Core {5.3.10.Final}
+2022-04-14 12:00:10,897 [INFO ] main org.hibernate.cfg.Environment [Environment.java : 213] HHH000206: hibernate.properties not found
+2022-04-14 12:00:10,949 [INFO ] main org.hibernate.annotations.common.Version [JavaReflectionManager.java : 49] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-04-14 12:00:10,995 [INFO ] main org.hibernate.dialect.Dialect [Dialect.java : 157] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-14 12:00:11,268 [INFO ] main o.s.orm.jpa.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java : 415] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-14 12:00:11,576 [INFO ] main org.springframework.security.web.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java : 43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@563317c1, org.springframework.security.web.context.SecurityContextPersistenceFilter@100bba26, org.springframework.security.web.header.HeaderWriterFilter@16d41725, org.springframework.web.filter.CorsFilter@5d5d3a5c, org.springframework.security.web.authentication.logout.LogoutFilter@5d66ae3a, com.example.demo.security.JWTAuthenticationFilter@6e0d16a4, com.example.demo.security.JWTAuthenticationVerificationFilter@7e18ced7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@76d0ecd7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f6494c0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@305b43ca, org.springframework.security.web.session.SessionManagementFilter@25533bba, org.springframework.security.web.access.ExceptionTranslationFilter@36551e97, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b377a53]
+2022-04-14 12:00:11,627 [INFO ] main o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-14 12:00:11,685 [INFO ] main org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-14 12:00:11,707 [INFO ] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-14 12:00:11,708 [INFO ] main com.example.demo.ECommerceApplication [StartupInfoLogger.java : 59] Started ECommerceApplication in 1.846 seconds (JVM running for 2.158)
+2022-04-14 12:00:46,544 [INFO ] http-nio-8080-exec-1 o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-14 12:00:46,544 [INFO ] http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2022-04-14 12:00:46,549 [INFO ] http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 5 ms
+2022-04-14 12:00:46,712 [INFO ] http-nio-8080-exec-1 org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [QueryTranslatorFactoryInitiator.java : 47] HHH000397: Using ASTQueryTranslatorFactory
+2022-04-14 12:01:30,456 [INFO ] http-nio-8080-exec-4 com.example.demo.controllers.UserController [UserController.java : 71] create user: test successfully!
+2022-04-14 12:01:40,586 [INFO ] http-nio-8080-exec-5 com.example.demo.controllers.CartController [CartController.java : 54] add to cart successfully
+2022-04-14 12:02:49,771 [INFO ] http-nio-8080-exec-7 com.example.demo.controllers.UserController [UserController.java : 71] create user: test1 successfully!
+2022-04-14 12:16:37,538 [INFO ] Thread-6 o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-14 12:16:37,540 [INFO ] Thread-6 o.s.orm.jpa.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java : 597] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-14 12:16:37,541 [INFO ] Thread-6 com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 350] HikariPool-1 - Shutdown initiated...
+2022-04-14 12:16:37,542 [INFO ] Thread-6 com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 352] HikariPool-1 - Shutdown completed.
+2022-04-14 12:16:39,077 [INFO ] main com.example.demo.ECommerceApplication [StartupInfoLogger.java : 50] Starting ECommerceApplication on s-MacBook-Air-2 with PID 14110 (/Users/aaron/Documents/GitHub/eCom/starter_code/target/classes started by aaron in /Users/aaron/Documents/GitHub/eCom)
+2022-04-14 12:16:39,079 [INFO ] main com.example.demo.ECommerceApplication [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2022-04-14 12:16:39,337 [INFO ] main o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-04-14 12:16:39,365 [INFO ] main o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 25ms. Found 4 repository interfaces.
+2022-04-14 12:16:39,566 [INFO ] main o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$77217a49] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-14 12:16:39,652 [INFO ] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8080 (http)
+2022-04-14 12:16:39,657 [INFO ] main org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-14 12:16:39,661 [INFO ] main org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2022-04-14 12:16:39,662 [INFO ] main org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-04-14 12:16:39,696 [INFO ] main o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2022-04-14 12:16:39,697 [INFO ] main org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 595 ms
+2022-04-14 12:16:39,758 [INFO ] main com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+2022-04-14 12:16:39,797 [INFO ] main com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.
+2022-04-14 12:16:39,814 [INFO ] main org.hibernate.jpa.internal.util.LogHelper [LogHelper.java : 31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-04-14 12:16:39,880 [INFO ] main org.hibernate.Version [Version.java : 46] HHH000412: Hibernate Core {5.3.10.Final}
+2022-04-14 12:16:39,881 [INFO ] main org.hibernate.cfg.Environment [Environment.java : 213] HHH000206: hibernate.properties not found
+2022-04-14 12:16:39,915 [INFO ] main org.hibernate.annotations.common.Version [JavaReflectionManager.java : 49] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-04-14 12:16:39,952 [INFO ] main org.hibernate.dialect.Dialect [Dialect.java : 157] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-14 12:16:40,205 [INFO ] main o.s.orm.jpa.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java : 415] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-14 12:16:40,471 [INFO ] main org.springframework.security.web.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java : 43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1cba0321, org.springframework.security.web.context.SecurityContextPersistenceFilter@6615237, org.springframework.security.web.header.HeaderWriterFilter@591f6f83, org.springframework.web.filter.CorsFilter@795f6681, org.springframework.security.web.authentication.logout.LogoutFilter@664db2ca, com.example.demo.security.JWTAuthenticationFilter@66d3b881, com.example.demo.security.JWTAuthenticationVerificationFilter@3a45afd4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4bf4680c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b5ac347, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@762a10b6, org.springframework.security.web.session.SessionManagementFilter@55421b8d, org.springframework.security.web.access.ExceptionTranslationFilter@150d6eaf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a55fb81]
+2022-04-14 12:16:40,524 [INFO ] main o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-14 12:16:40,580 [INFO ] main org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-14 12:16:40,603 [INFO ] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-14 12:16:40,604 [INFO ] main com.example.demo.ECommerceApplication [StartupInfoLogger.java : 59] Started ECommerceApplication in 1.723 seconds (JVM running for 1.955)
+2022-04-14 12:31:32,677 [INFO ] Thread-6 o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-14 12:31:32,679 [INFO ] Thread-6 o.s.orm.jpa.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java : 597] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-14 12:31:32,681 [INFO ] Thread-6 com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 350] HikariPool-1 - Shutdown initiated...
+2022-04-14 12:31:32,681 [INFO ] Thread-6 com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 352] HikariPool-1 - Shutdown completed.
+2022-04-14 12:31:34,544 [INFO ] main com.example.demo.ECommerceApplication [StartupInfoLogger.java : 50] Starting ECommerceApplication on s-MacBook-Air-2 with PID 14916 (/Users/aaron/Documents/GitHub/eCom/starter_code/target/classes started by aaron in /Users/aaron/Documents/GitHub/eCom)
+2022-04-14 12:31:34,546 [INFO ] main com.example.demo.ECommerceApplication [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2022-04-14 12:31:34,788 [INFO ] main o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-04-14 12:31:34,812 [INFO ] main o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 21ms. Found 4 repository interfaces.
+2022-04-14 12:31:35,037 [INFO ] main o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d3558fb7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-14 12:31:35,129 [INFO ] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8080 (http)
+2022-04-14 12:31:35,135 [INFO ] main org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-14 12:31:35,140 [INFO ] main org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2022-04-14 12:31:35,141 [INFO ] main org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-04-14 12:31:35,175 [INFO ] main o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2022-04-14 12:31:35,175 [INFO ] main org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 608 ms
+2022-04-14 12:31:35,234 [INFO ] main com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+2022-04-14 12:31:35,269 [INFO ] main com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.
+2022-04-14 12:31:35,326 [INFO ] main org.hibernate.jpa.internal.util.LogHelper [LogHelper.java : 31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-04-14 12:31:35,344 [INFO ] main org.hibernate.Version [Version.java : 46] HHH000412: Hibernate Core {5.3.10.Final}
+2022-04-14 12:31:35,345 [INFO ] main org.hibernate.cfg.Environment [Environment.java : 213] HHH000206: hibernate.properties not found
+2022-04-14 12:31:35,383 [INFO ] main org.hibernate.annotations.common.Version [JavaReflectionManager.java : 49] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-04-14 12:31:35,420 [INFO ] main org.hibernate.dialect.Dialect [Dialect.java : 157] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-14 12:31:35,673 [INFO ] main o.s.orm.jpa.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java : 415] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-14 12:31:35,963 [INFO ] main org.springframework.security.web.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java : 43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e01a26b, org.springframework.security.web.context.SecurityContextPersistenceFilter@b5d9f1e, org.springframework.security.web.header.HeaderWriterFilter@1491cd6c, org.springframework.web.filter.CorsFilter@7604198a, org.springframework.security.web.authentication.logout.LogoutFilter@6bcdd6e4, com.example.demo.security.JWTAuthenticationFilter@5cce40d7, com.example.demo.security.JWTAuthenticationVerificationFilter@314b7945, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@401317a0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e2f20b8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32da97fd, org.springframework.security.web.session.SessionManagementFilter@1aedf08d, org.springframework.security.web.access.ExceptionTranslationFilter@3f0ce0d1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3070f3e6]
+2022-04-14 12:31:36,013 [INFO ] main o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-14 12:31:36,079 [INFO ] main org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-14 12:31:36,091 [INFO ] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-14 12:31:36,092 [INFO ] main com.example.demo.ECommerceApplication [StartupInfoLogger.java : 59] Started ECommerceApplication in 1.722 seconds (JVM running for 1.961)
+2022-04-14 12:36:57,025 [INFO ] http-nio-8080-exec-2 o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-14 12:36:57,025 [INFO ] http-nio-8080-exec-2 org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2022-04-14 12:36:57,028 [INFO ] http-nio-8080-exec-2 org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 3 ms
+2022-04-14 12:36:57,090 [INFO ] http-nio-8080-exec-2 org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [QueryTranslatorFactoryInitiator.java : 47] HHH000397: Using ASTQueryTranslatorFactory
+2022-04-14 12:36:57,277 [INFO ] http-nio-8080-exec-2 com.example.demo.controllers.UserController [UserController.java : 71] create user: test1 successfully!
+2022-04-14 12:37:11,525 [INFO ] Thread-6 o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-14 12:37:11,527 [INFO ] Thread-6 o.s.orm.jpa.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java : 597] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-14 12:37:11,528 [INFO ] Thread-6 com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 350] HikariPool-1 - Shutdown initiated...
+2022-04-14 12:37:11,529 [INFO ] Thread-6 com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 352] HikariPool-1 - Shutdown completed.
+2022-04-14 12:37:11,582 [INFO ] http-nio-8080-exec-3 com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-2 - Starting...
+2022-04-14 12:37:11,583 [INFO ] http-nio-8080-exec-3 com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-2 - Start completed.
+2022-04-14 12:37:11,587 [INFO ] http-nio-8080-exec-3 org.hibernate.jpa.internal.util.LogHelper [LogHelper.java : 31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-04-14 12:37:11,592 [INFO ] http-nio-8080-exec-3 org.hibernate.dialect.Dialect [Dialect.java : 157] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-14 12:37:11,637 [INFO ] http-nio-8080-exec-3 o.s.orm.jpa.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java : 415] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-14 12:37:42,448 [INFO ] main com.example.demo.ECommerceApplication [StartupInfoLogger.java : 50] Starting ECommerceApplication on s-MacBook-Air-2 with PID 15198 (/Users/aaron/Documents/GitHub/eCom/starter_code/target/classes started by aaron in /Users/aaron/Documents/GitHub/eCom)
+2022-04-14 12:37:42,450 [INFO ] main com.example.demo.ECommerceApplication [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2022-04-14 12:37:42,681 [INFO ] main o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-04-14 12:37:42,711 [INFO ] main o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 26ms. Found 4 repository interfaces.
+2022-04-14 12:37:42,904 [INFO ] main o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d3558fb7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-14 12:37:42,988 [INFO ] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8080 (http)
+2022-04-14 12:37:42,993 [INFO ] main org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-14 12:37:42,997 [INFO ] main org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2022-04-14 12:37:42,997 [INFO ] main org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-04-14 12:37:43,030 [INFO ] main o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2022-04-14 12:37:43,031 [INFO ] main org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 561 ms
+2022-04-14 12:37:43,087 [INFO ] main com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+2022-04-14 12:37:43,123 [INFO ] main com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.
+2022-04-14 12:37:43,141 [INFO ] main org.hibernate.jpa.internal.util.LogHelper [LogHelper.java : 31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-04-14 12:37:43,207 [INFO ] main org.hibernate.Version [Version.java : 46] HHH000412: Hibernate Core {5.3.10.Final}
+2022-04-14 12:37:43,208 [INFO ] main org.hibernate.cfg.Environment [Environment.java : 213] HHH000206: hibernate.properties not found
+2022-04-14 12:37:43,250 [INFO ] main org.hibernate.annotations.common.Version [JavaReflectionManager.java : 49] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-04-14 12:37:43,291 [INFO ] main org.hibernate.dialect.Dialect [Dialect.java : 157] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-14 12:37:43,540 [INFO ] main o.s.orm.jpa.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java : 415] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-14 12:37:43,832 [INFO ] main org.springframework.security.web.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java : 43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5cce40d7, org.springframework.security.web.context.SecurityContextPersistenceFilter@401317a0, org.springframework.security.web.header.HeaderWriterFilter@1aedf08d, org.springframework.web.filter.CorsFilter@314b7945, org.springframework.security.web.authentication.logout.LogoutFilter@615b5480, com.example.demo.security.JWTAuthenticationFilter@32da97fd, com.example.demo.security.JWTAuthenticationVerificationFilter@64440065, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5844a2d1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5618fc1f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4aa22cc2, org.springframework.security.web.session.SessionManagementFilter@b5d9f1e, org.springframework.security.web.access.ExceptionTranslationFilter@1491cd6c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@52bba91a]
+2022-04-14 12:37:43,882 [INFO ] main o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-14 12:37:43,947 [INFO ] main org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-14 12:37:43,959 [INFO ] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-14 12:37:43,960 [INFO ] main com.example.demo.ECommerceApplication [StartupInfoLogger.java : 59] Started ECommerceApplication in 1.687 seconds (JVM running for 1.921)
+2022-04-14 12:37:53,635 [INFO ] http-nio-8080-exec-1 o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-14 12:37:53,636 [INFO ] http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2022-04-14 12:37:53,641 [INFO ] http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 5 ms
+2022-04-14 12:37:53,700 [INFO ] http-nio-8080-exec-1 org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [QueryTranslatorFactoryInitiator.java : 47] HHH000397: Using ASTQueryTranslatorFactory
+2022-04-14 12:37:53,898 [INFO ] http-nio-8080-exec-1 com.example.demo.controllers.UserController [UserController.java : 71] create user: test successfully!
+2022-04-14 12:38:11,332 [INFO ] http-nio-8080-exec-5 com.example.demo.controllers.CartController [CartController.java : 54] add to cart successfully
+2022-04-14 12:42:08,072 [INFO ] http-nio-8080-exec-3 com.example.demo.controllers.CartController [CartController.java : 54] add to cart successfully
+2022-04-14 12:42:44,570 [INFO ] http-nio-8080-exec-5 com.example.demo.controllers.OrderController [OrderController.java : 36] order submitted successfully
+2022-04-14 15:12:15,406 [INFO ] http-nio-8080-exec-2 com.example.demo.controllers.UserController [UserController.java : 71] create user: test1 successfully!
+2022-04-14 15:34:35,124 [INFO ] http-nio-8080-exec-4 com.example.demo.controllers.UserController [UserController.java : 71] create user: test2 successfully!
+2022-04-14 17:19:01,348 [INFO ] Thread-6 o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-14 17:19:01,351 [INFO ] Thread-6 o.s.orm.jpa.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java : 597] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-14 17:19:01,354 [INFO ] Thread-6 com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 350] HikariPool-1 - Shutdown initiated...
+2022-04-14 17:19:01,356 [INFO ] Thread-6 com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 352] HikariPool-1 - Shutdown completed.

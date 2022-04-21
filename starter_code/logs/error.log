@@ -1,0 +1,2 @@
+2022-04-21 19:11:11,617 [ERROR] http-nio-8080-exec-3 com.example.demo.controllers.UserController [UserController.java : 45] user not found: test
+2022-04-21 19:11:50,493 [ERROR] http-nio-8080-exec-7 com.example.demo.controllers.UserController [UserController.java : 45] user not found: test
