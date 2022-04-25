@@ -45,7 +45,7 @@ true -->
             <!-- 添加.gz 历史日志会启用压缩 大大缩小日志文件所占空间 -->
             <!--<fileNamePattern>/home/log/stdout.log.%d{yyyy-MM-dd}.log</fileNam
             ePattern>-->
-            <fileNamePattern>./starter_code/logs/info.log.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>./starter_code/logs/info.%d{yyyy-MM-dd}.log</fileNamePattern>
             <maxHistory>30</maxHistory><!-- 保留 30 天日志 -->
         </rollingPolicy>
     </appender>
@@ -63,7 +63,7 @@ true -->
         </encoder>
         <rollingPolicy
                 class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>./starter_code/logs/error.log.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>./starter_code/logs/error.%d{yyyy-MM-dd}.log</fileNamePattern>
             <maxHistory>30</maxHistory><!-- 保留 30 天日志 -->
         </rollingPolicy>
 
