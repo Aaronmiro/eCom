@@ -20,6 +20,8 @@ import com.example.demo.model.persistence.repositories.ItemRepository;
 import com.example.demo.model.persistence.repositories.UserRepository;
 import com.example.demo.model.requests.ModifyCartRequest;
 
+import javax.validation.Valid;
+
 @RestController
 @RequestMapping("/api/cart")
 public class CartController {
@@ -36,7 +38,7 @@ public class CartController {
     private ItemRepository itemRepository;
 
     @PostMapping("/addToCart")
-    public ResponseEntity<Cart> addToCart(@RequestBody ModifyCartRequest request) {
+    public ResponseEntity<Cart> addToCart(@Valid @RequestBody ModifyCartRequest request) {
         User user = userRepository.findByUsername(request.getUsername());
         if (user == null) {
             log.error("user not found by name: {}", request.getUsername());
