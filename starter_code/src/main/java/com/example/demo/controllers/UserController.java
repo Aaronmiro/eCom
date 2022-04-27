@@ -18,6 +18,8 @@ import com.example.demo.model.persistence.repositories.CartRepository;
 import com.example.demo.model.persistence.repositories.UserRepository;
 import com.example.demo.model.requests.CreateUserRequest;
 
+import javax.validation.Valid;
+
 @RestController
 @RequestMapping("/api/user")
 public class UserController {
@@ -50,7 +52,7 @@ public class UserController {
     }
 
     @PostMapping("/create")
-    public ResponseEntity<User> createUser(@RequestBody CreateUserRequest createUserRequest) {
+    public ResponseEntity<User> createUser(@Valid @RequestBody CreateUserRequest createUserRequest) {
         User u = userRepository.findByUsername(createUserRequest.getUsername());
         if (u != null) {
             log.error("user already exists {}", createUserRequest.getUsername());
