@@ -2,11 +2,11 @@
 
 - Coded in Java using Spring Boot, Hibernate ORM, and the H2 database. 
 - Used a combination of usernames and passwords for authentication, as well as JSON Web Tokens (JWT) to handle the authorization.
-- Wrote tests included sanity, regression and negative tests, and met an acceptable code coverage level (60%) as well.
+- Wrote tests including sanity, regression and negative tests, and met an acceptable code coverage level (60%) as well.
 - Indexed logs to Splunk in order to monitor a system.
 
 ## Features: 
-- Create user, user login, get user profile
+- CreateUser, user login, get user profile
 - Add and remove items to cart
 - Submit cart to order
 - View purchase history
