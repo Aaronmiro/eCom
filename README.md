@@ -11,7 +11,7 @@
 - Submit cart to order
 - View purchase history
 
-## Logs
+## Logs for
 * CreateUser and order request successes and failures
 * Order requests successes and failures
 * Exceptions  
